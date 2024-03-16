@@ -9,7 +9,9 @@ on:
 
 jobs:
   build:
-
+    defaults:
+      run:
+        working-directory: source
     runs-on: ubuntu-latest
 
     strategy:
